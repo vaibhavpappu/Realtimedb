@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main2"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bac"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pack.vaibhav.realtimedb.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+    <ListView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/cardview_dark_background"
+        android:dividerHeight="4px"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll">    </ListView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <EditText
+            android:id="@+id/address"
+            android:hint="Type Message"
+            android:layout_width="1dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/send"
+            android:onClick="click"
+            android:id="@+id/save"
+            android:text="Send"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
+
+

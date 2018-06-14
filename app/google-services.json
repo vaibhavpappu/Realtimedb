@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "861510738738",
+    "firebase_url": "https://realtimedb-a1894.firebaseio.com",
+    "project_id": "realtimedb-a1894",
+    "storage_bucket": "realtimedb-a1894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861510738738:android:7833d7e31efbb0f0",
+        "android_client_info": {
+          "package_name": "com.pack.vaibhav.realtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861510738738-gu9cn82aprd5tb3m947d72dqjbj2nibs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pack.vaibhav.realtimedb",
+            "certificate_hash": "344fbdad915dc549f156b6661033f3f8855477ce"
+          }
+        },
+        {
+          "client_id": "861510738738-o3064mla3k69o67oc4p5seom683u8k1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Cio95UTjrJbZ3QcZGiIaCJV-cv0-kuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861510738738-o3064mla3k69o67oc4p5seom683u8k1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

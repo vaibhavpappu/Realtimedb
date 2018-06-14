@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    tools:context="com.pack.vaibhav.realtimedb.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"
+            android:text="Login"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="Email"
+            android:textSize="30dp"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:id="@+id/password"
+            android:textSize="30dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:id="@+id/signup1"
+            android:text="Login"
+            android:background="@drawable/buttonshape"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="40dp"
+            android:layout_width="270dp"
+            android:layout_height="60dp" />
+
+       <TextView
+           android:layout_marginTop="20dp"
+           android:id="@+id/lbtn"
+           android:textStyle="bold"
+           android:layout_marginLeft="10dp"
+           android:textColor="#FF4081"
+           android:textSize="20dp"
+           android:text="New User Signup Please Click Here!!!"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_weight="10"
+            android:layout_marginLeft="150dp"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
